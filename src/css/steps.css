@@ -1,0 +1,179 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.how-it-works {
+  background: linear-gradient(to top, #576f35 0 654px, #7a3145 654px 100%);
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.steps-cooking {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #7a3145;
+}
+
+.steps-cooking img {
+  border-radius: 30px;
+}
+
+.steps-block {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.steps-header {
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.steps-header > span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.steps-info {
+  color: #fbfbfb;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.steps-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.steps-list-item {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 76px;
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 15px;
+  background: #fbfbfb;
+}
+
+.steps-list-item::before {
+  counter-increment: section;
+  content: counter(section);
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 52px;
+  width: 52px;
+  background-color: #7a3145;
+  border: 5px solid #d3bec4;
+  border-radius: 50%;
+
+  color: #fbfbfb;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.steps-item-text {
+  text-align: start;
+  color: rgba(20, 20, 20, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.steps-item-text > span {
+  color: #141414;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .how-it-works {
+    background: linear-gradient(to top, #576f35 0 699px, #7a3145 699px 100%);
+  }
+
+  .steps-cooking {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #7a3145;
+  }
+
+  .steps-block {
+    padding: 100px 127px;
+    gap: 50px;
+  }
+
+  .steps-header {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .steps-info {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .how-it-works {
+    background: linear-gradient(to left, #576f35 0 51%, #7a3145 51% 100%);
+  }
+
+  .steps-container {
+    flex-wrap: nowrap;
+    /* gap: 200px; */
+  }
+
+  .steps-cooking {
+    padding: 100px;
+  }
+
+  .steps-block {
+    padding: 100px 100px 160px 100px;
+  }
+}
