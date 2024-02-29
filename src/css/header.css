@@ -1,3 +1,116 @@
+/* ===== Header ===== */
 .header {
-  padding: 20px 0;
+  position: relative;
+}
+
+.header-container {
+  position: absolute;
+  background-color: transparent;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.header-logo-favicon {
+  width: 16px;
+  height: 16px;
+}
+
+.header-logo-text {
+  width: 148px;
+  height: 12px;
+}
+
+.btn-open-menu {
+  padding: 0;
+  background-color: transparent;
+  line-height: 0;
+  border: none;
+}
+
+.icon-btn-open-menu {
+  width: 32px;
+  height: 32px;
+}
+
+.header-menu-wrap {
+  display: none;
+}
+
+/* ===== Adaptive header for tablet ===== */
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    top: 32px;
+  }
+
+  .header-logo {
+    gap: 8px;
+  }
+
+  .header-logo-favicon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header-logo-text {
+    width: 168px;
+    height: 15px;
+  }
+
+  .icon-btn-open-menu {
+    width: 40px;
+    height: 40px;
+  }
+}
+/* ===== Adaptive header for desktop ===== */
+
+@media screen and (min-width: 1280px) {
+  .btn-open-menu {
+    display: none;
+  }
+
+  .header-menu-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .header-menu {
+  }
+  .header-menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  .header-menu-item {
+  }
+  .header-btn-shop {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    width: 157px;
+    border-radius: 30px;
+    background-color: #7a3145;
+    border: none;
+    padding: 16px 32px;
+    color: #fbfbfb;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+  }
 }
