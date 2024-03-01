@@ -1,0 +1,114 @@
+ /* Vegetables styles */
+.vegetables {
+    background-color: #7A3145;
+}
+.vegetables .vegetables-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.vegetables-title {
+    display: block;
+    color: #FBFBFB;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 104%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+.vegetables-title-span {
+    color: rgba(251, 251, 251, 0.3);
+}
+.vegetables-title-text {
+    display: block;
+    width: 100%;
+    color: #FBFBFB;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+}
+.vegetables-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.vegetables-list-item {
+    padding: 32px 26px;
+    border-radius: 40px;
+    background-color: #FBFBFB;
+}
+.vegetables-subtitle {
+    display: block;
+    margin-bottom: 12px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #7A3145;
+}
+.vegetables-subtitle-text {
+    display: block;
+    margin-bottom: 14px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+.vegetables-picture {
+    display: block;
+    width: 100%;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .vegetables-title {
+    width: 508px;
+    margin-bottom: 25px;
+    font-size: 64px;
+    line-height: 100%;
+}
+    .vegetables-title-text {
+    width: 626px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 125%;
+}
+    .vegetables-list {
+    gap: unset;
+    column-gap: 20px;
+    row-gap: 28px;
+}
+    .vegetables-list-item {
+    padding: 32px 30px;
+}
+    .vegetables-subtitle {
+    font-size: 32px;
+    }
+    .vegetables-subtitle-text {
+    margin-bottom: 10px;
+    }
+}
+    /* Desktop */
+@media screen and (min-width: 1280px) {
+    .vegetables-list {
+    column-gap: 21px;
+}
+    .vegetables-list-item {
+    padding: 32px;
+}
+    .vegetables-subtitle {
+    font-size: 32px;
+    }
+}
