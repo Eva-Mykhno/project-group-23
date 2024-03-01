@@ -1,0 +1,102 @@
+:root {
+    --text: #141414;
+    --background: #576f35;
+    --background-2: #7a3145;
+    --main-text: #fbfbfb;
+}
+
+:root {
+    --font-family: "Inter Tight",
+        sans-serif;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.discount-section-container {
+    width: 1080px;
+    height: 240px;
+
+}
+
+.discount-span {
+    background-color: var(--background);
+    color: var(--main-text);
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    border-radius: 12px;
+
+
+
+}
+
+.discount-paragraph {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.discount-section {
+    padding: 100px;
+    width: 1280px;
+    background-color: var(--main-text);
+}
+
+/*
+.discount-section-container{
+    background-color: #fff;
+    position: relative;
+    width: 1080px;
+    height: 240px;
+}
+
+/*.discount-section-banner-container{
+    position: absolute;
+    border-radius: 12px;
+        background-color: var(--background);
+
+        /* Белый цвет текста */
+padding: 13px;
+/* Внутренний отступ для контента внутри плашки 
+
+
+.discount-paragraph{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #141414;
+    
+}
+
+.discount-span{
+    width: 808px;
+    height: 86px;
+    border-radius: 12px;
+    background-color: var(--background);
+
+    color: var(--main-text);
+}
+*/
