@@ -103,6 +103,14 @@ ol {
   background: #fbfbfb;
 }
 
+.steps-list-item:first-child {
+  padding-right: 27px;
+}
+
+.steps-list-item:nth-child(2) {
+  padding-right: 59px;
+}
+
 .steps-list-item::before {
   counter-increment: section;
   content: counter(section);
@@ -170,6 +178,23 @@ ol {
   }
 
   .steps-info {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .steps-list-item {
+    padding-right: 27px;
+  }
+
+  .steps-list-item:first-child {
+    padding-right: 25px;
+  }
+
+  .steps-list-item:nth-child(2) {
+    padding-right: 27px;
+  }
+
+  .steps-item-text {
     font-size: 16px;
     line-height: 1.25;
   }
