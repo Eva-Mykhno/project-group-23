@@ -16,10 +16,14 @@
   justify-content: space-between;
 }
 
+.header-logo-a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .header-logo {
   display: flex;
-  gap: 4px;
-  align-items: center;
 }
 
 .header-logo-favicon {
@@ -55,7 +59,7 @@
     top: 32px;
   }
 
-  .header-logo {
+  .header-logo-a {
     gap: 8px;
   }
 
@@ -86,19 +90,26 @@
     gap: 20px;
     align-items: center;
   }
-  .header-menu {
-  }
+
   .header-menu-list {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 8px;
     align-items: center;
   }
   .header-menu-item {
+    background-color: transparent;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.25; /* 125% */
+    letter-spacing: -0.02em;
   }
+
   .header-btn-shop {
-    display: flex;
-    align-items: center;
     margin: 0 auto;
     display: block;
     width: 157px;
@@ -112,5 +123,11 @@
     line-height: 1.11;
     letter-spacing: -0.015em;
     text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-btn-shop:hover,
+  .header-btn-shop:focus {
+    background-color: #622133;
   }
 }
