@@ -1,28 +1,45 @@
-<div class="order-text">
-    <h2 class="order-title">Fresh Harvest Box has got you covered</h2>
-    <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-</div>
-<div class="order-form-container">
-    <p class="order-fotm-text">Ordering from us is quick and easy! Fill out the form below and we will contact you !</p>
-    <form>
-        <input type="text" name="customer-name" placeholder="Full name" class="name-input"/>
-        <input pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" type="email" name="customer-email" placeholder="Email" class="email-input"/>
-        <textarea name="customer-comment" rows="6" placeholder="Comment" class="comment-section"></textarea>
-    </form>
-    <button type="submit" class="order-button">Send</button>
-</div>
-<div class="order-media-container">
-    <img src="/img/order-section-img/woman-hands@1.jpg" alt="woman-hands" height="273" width="295"/>
-    <p class="order-media-text">Follow us on our social networks:</p>
-    <ul class="social-media-list">
-        <li class="social-media-item">
-            <a class="social-media-link" target="_blank" href="https://www.instagram.com/goitclub/">instagram</a>
-        </li>
-        <li class="social-media-item">
-            <a class="social-media-link" target="_blank" href="https://www.facebook.com/goITclub/">facebok</a>
-        </li>
-        <li class="social-media-item">
-            <a class="social-media-link" target="_blank" href="https://www.youtube.com/c/GoIT">youtube</a>
-        </li>
-    </ul>
+<div class="container">
+    <div class="order-text-container">
+        <h2 class="order-title">Fresh <span class="title-accent">Harvest</span> Box has got you covered</h2>
+        <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+    </div>
+    <div class="order-form-container">
+        <p class="order-form-text">Ordering <span class="first-accent">from us</span> is quick and easy! Fill out <span class="second-accent">the form</span> below and we will contact you !</p>
+        <form class="order-form">
+            <input type="text" name="customer-name" placeholder="Full name" class="name-input" required/>
+            <input pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" type="email" name="customer-email" placeholder="Email" class="email-input" required/>
+            <textarea name="customer-comment" rows="6" placeholder="Comment" class="comment-section"></textarea>
+        </form>
+        <button type="submit" class="order-button">Send</button>
+    </div>
+    <div class="order-media-container">
+        <picture>
+            <source media="(min-width: 320px)"
+                    srcset="/img/order-section-img/woman-hands@1.jpg 1x, /img/order-section-img/woman-hands-desk@2.jpg 2x"/>
+            <source media="(min-width: 768px)"
+                    srcset="/img/order-section-img/woman-hands-desk@1.jpg"/>
+            <source media="(min-width: 1440px)"
+                    srcset="/img/order-section-img/woman-hands-desk@1.jpg"/>
+            <img src="/img/order-section-img/woman-hands-desk@1.jpg"
+                 alt="woman-hands"
+                 height="273"
+                 width="295"/>
+        </picture>
+        <p class="order-media-text">Follow us on our social networks:</p>
+        <div class="media-container">
+            <ul class="social-media-list">
+                <li class="social-media-item">
+                    <a class="social-media-link" target="_blank" href="https://www.instagram.com/goitclub/">instagram</a>
+                </li>
+                <li class="social-media-item">/</li>
+                <li class="social-media-item">
+                    <a class="social-media-link" target="_blank" href="https://www.facebook.com/goITclub/">facebook</a>
+                </li>
+                <li class="social-media-item">/</li>
+                <li class="social-media-item">
+                    <a class="social-media-link" target="_blank" href="https://www.youtube.com/c/GoIT">youtube</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
