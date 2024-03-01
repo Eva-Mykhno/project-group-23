@@ -7,7 +7,11 @@ ol {
 }
 
 .how-it-works {
-  background: linear-gradient(to top, #576f35 0 654px, #7a3145 654px 100%);
+  background: linear-gradient(
+    to bottom,
+    #7a3145 0% 44.76%,
+    #576f35 44.76% 100%
+  );
 }
 
 .steps-container {
@@ -35,7 +39,6 @@ ol {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #7a3145;
 }
 
 .overlay {
@@ -148,7 +151,11 @@ ol {
 
 @media screen and (min-width: 768px) {
   .how-it-works {
-    background: linear-gradient(to top, #576f35 0 699px, #7a3145 699px 100%);
+    background: linear-gradient(
+      to bottom,
+      #7a3145 0% 54.64%,
+      #576f35 54.64% 100%
+    );
   }
 
   .steps-cooking {
@@ -202,7 +209,11 @@ ol {
 
 @media screen and (min-width: 1280px) {
   .how-it-works {
-    background: linear-gradient(to left, #576f35 0 51%, #7a3145 51% 100%);
+    background: linear-gradient(
+      to right,
+      #7a3145 0% 44.76%,
+      #576f35 44.76% 100%
+    );
   }
 
   .steps-container {
