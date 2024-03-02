@@ -14,36 +14,25 @@
 
 .discount-section {
     padding: 80px 10px;
-    min-width: 375px;
+    width: 375px;
     height: 469px;
     background-color: #fbfbfb;
+
 }
 
-.discount-banner-container {
-    position: relative;
+.discount-content-wrapper {
     border-radius: 12px;
     width: 355px;
     height: 102px;
-}
-
-.discount-banner-paragraph {
-    color: #FBFBFB;
     background-color: #576f35;
-    border-radius: 12px;
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.04;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
+    position: relative;
     padding-left: 10px;
     padding-top: 3px;
     padding-right: 10px;
 
 
-}
 
-/*tab*/
+}
 
 .discount-paragraph {
     font-family: "Inter Tight", sans-serif;
@@ -52,58 +41,57 @@
     line-height: 1.04;
     letter-spacing: -0.01em;
     text-transform: uppercase;
+    color: #141414;
     position: absolute;
-    margin-top: auto;
-    padding-left: 10px;
-    padding-top: 3px;
-    padding-right: 10px;
+    margin: 0;
+
+
+}
+
+.discount-paragraph-span {
+    color: #fbfbfb;
 }
 
 @media screen and (min-width:768px) {
     .discount-section {
         padding: 100px 16px;
-        min-width: 768px;
+        width: 768px;
         height: 488px;
     }
 
-    .discount-banner-container {
+    .discount-content-wrapper {
         width: 736px;
         height: 86px;
-    }
-
-    .discount-banner-paragraph {
-        font-size: 64px;
-        line-height: 1.09;
+        padding-top: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .discount-paragraph {
         font-size: 64px;
         line-height: 1.09;
-        margin-top: -15px;
     }
+
 }
 
-/*desktop*/
-
-@media screen and (min-width:1158px) {
+@media screen and (min-width:1024px) {
     .discount-section {
         padding: 100px;
         width: 1280px;
         height: 440px;
     }
 
-    .discount-banner-container {
+    .discount-content-wrapper {
         width: 808px;
         height: 86px;
-    }
-
-    .discount-banner-paragraph {
-        font-size: 76px;
-        line-height: 1.05;
+        padding-top: 0;
+        padding-left: 13px;
+        padding-right: 13px;
     }
 
     .discount-paragraph {
         font-size: 76px;
         line-height: 1.05;
+
     }
 }
