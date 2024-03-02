@@ -1,11 +1,13 @@
-.container {
+.order-section{
     min-width: 320px;
     max-width: 370px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: #7a3145;
+  }
+  .order-text-container{
+    width: 335px;
   }
   .order-title{
     font-family: 'Inter Tight', sans-serif;
@@ -26,6 +28,7 @@
     font-size: 14px;
     line-height: 1.3;
     color: #fbfbfb;
+    margin-top: 29px;
   }
   .order-form-container{
     background-color: #fbfbfb;
@@ -91,6 +94,7 @@
     letter-spacing: -0.02em;
     text-align: left;
     color: #141414;
+    padding-top: 14px;
   }
   .order-button{
     border-radius: 30px;
@@ -112,7 +116,7 @@
     border-radius: 30px;
     padding: 40px 20px;
     max-width: 335px;
-    height: 465px;
+    max-height: 465px;
     margin-top: 40px;
 }
 img{
@@ -151,14 +155,19 @@ img{
     letter-spacing: -0.01em;
 }
 @media screen and (min-width: 768px) {
-    .container{
+    .order-section{
         max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
+        padding: 100px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .order-text-container{
+      width: 640px;
     }
     .order-title{
         font-size: 64px;
-        padding-top: 100px;
         line-height: 1;
     }
     .order-text{
@@ -169,6 +178,8 @@ img{
     .order-form-container{
         max-width: 628px;
         padding: 50px 100px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
     .order-form{
         margin-top: 50px;
@@ -187,13 +198,14 @@ img{
     }
     .comment-section{
         max-width: 428px;
+        padding-top: 16px;
     }
     textarea::placeholder{
         font-size: 16px;
         line-height: 1.25;
     }
     .order-button{
-        max-width: 428px;
+        width: 100%;
         font-size: 18px;
         line-height: 1.11;
         padding: 16px 191px;
@@ -202,8 +214,71 @@ img{
         margin-top: 25px;
         padding: 50px;
         max-width: 628px;
-        max-height: 534px;
+        max-height: 490px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
     img{
+      width: 528px;
+      height: 273px;
     }
+    .order-media-text{
+      margin-top: 50px;
+      margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 1.11;
+    }
+    .social-media-list{
+      gap: 12px;
+    }
+    .social-media-link{
+      font-size: 32px;
+      line-height: 1;
+    }
+    .social-media-item{
+      font-size: 32px;
+      line-height: 1;
+    }
+  }
+  @media  screen and (min-width: 1280px) {
+    .order-section{
+      min-width: 1280px;
+      padding: 100px;
+    }
+    .order-text-container{
+      margin-right: 429px;
+      width: 751px;
+      margin-left: 100px;
+    }
+    .order-text{
+      max-width: 742px;
+    }
+    .second-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      max-width: 1080px;
+      gap: 24px;
+      margin-top: 50px;
+    }
+    .order-form-container{
+      padding: 50px;
+      max-width: 529px;
+      max-height: 534px;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    img{
+      width: 427px;
+      height: 273px;
+    }
+    .order-media-container{
+      max-width: 529px;
+      max-height: 534px;
+      margin: 0;
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) 
   }
