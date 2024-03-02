@@ -38,7 +38,7 @@ margin-bottom: 14px;}
 font-weight: 600;
 font-size: 14px;
 line-height: 1.29;
-letter-spacing: -0.01em;
+letter-spacing: -0.015em;
 font-style: normal;}
 
 .f-address-items:not(:last-child) {
@@ -54,7 +54,7 @@ margin-right: 8px;}
 font-weight:500;
 font-size:  12px;
 line-height: 1.33;
-letter-spacing: -0.01em;
+letter-spacing: -0.015em;
 opacity:50%;
 }
 
