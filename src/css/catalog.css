@@ -1,8 +1,6 @@
  /* Vegetables styles */
-.vegetables {
+.vegetables-container {
     background-color: #7A3145;
-}
-.vegetables .vegetables-container {
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
@@ -14,10 +12,9 @@
     color: #FBFBFB;
     margin-bottom: 20px;
     width: 100%;
-    font-family: var(--font-family);
     font-weight: 600;
-    font-size: 46px;
-    line-height: 104%;
+    font-size: 48px;
+    line-height: 1.04;
     letter-spacing: -0.01em;
     text-transform: uppercase;
 }
@@ -29,10 +26,9 @@
     width: 100%;
     color: #FBFBFB;
     margin-bottom: 40px;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
 }
 .vegetables-list {
     display: flex;
@@ -47,20 +43,18 @@
 .vegetables-subtitle {
     display: block;
     margin-bottom: 12px;
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 28px;
-    line-height: 100%;
+    line-height: 1;
     letter-spacing: -0.01em;
     color: #7A3145;
 }
 .vegetables-subtitle-text {
     display: block;
     margin-bottom: 14px;
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 14px;
-    line-height: 129%;
+    line-height: 1.29;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
@@ -77,13 +71,13 @@
     width: 508px;
     margin-bottom: 25px;
     font-size: 64px;
-    line-height: 100%;
+    line-height: 1;
 }
     .vegetables-title-text {
     width: 626px;
     margin-bottom: 50px;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
 }
     .vegetables-list {
     gap: unset;
