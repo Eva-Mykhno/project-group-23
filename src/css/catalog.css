@@ -1,6 +1,8 @@
  /* Vegetables styles */
-.vegetables-container {
+.vegetables {
     background-color: #7A3145;
+}
+.vegetables-container {
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
