@@ -8,21 +8,19 @@
     position: relative;
 }
 .vegetables-title {
-    display: block;
     color: #FBFBFB;
     margin-bottom: 20px;
     width: 100%;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.04;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     text-transform: uppercase;
 }
 .vegetables-title-span {
     color: rgba(251, 251, 251, 0.3);
 }
 .vegetables-title-text {
-    display: block;
     width: 100%;
     color: #FBFBFB;
     margin-bottom: 40px;
@@ -41,26 +39,23 @@
     background-color: #FBFBFB;
 }
 .vegetables-subtitle {
-    display: block;
     margin-bottom: 12px;
     font-weight: 600;
     font-size: 28px;
     line-height: 1;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     color: #7A3145;
 }
 .vegetables-subtitle-text {
-    display: block;
     margin-bottom: 14px;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.29;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     text-transform: uppercase;
     color: #141414;
 }
 .vegetables-picture {
-    display: block;
     width: 100%;
 }
 
@@ -102,7 +97,4 @@
     .vegetables-list-item {
     padding: 32px;
 }
-    .vegetables-subtitle {
-    font-size: 32px;
-    }
 }
