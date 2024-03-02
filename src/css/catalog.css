@@ -5,7 +5,6 @@
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 .vegetables-title {
     color: #FBFBFB;
@@ -95,7 +94,7 @@
     /* Desktop */
 @media screen and (min-width: 1280px) {
     .vegetables-list {
-    column-gap: 21px;
+    gap: 28px 21px;
 }
     .vegetables-list-item {
     padding: 32px;
