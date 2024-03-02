@@ -75,12 +75,15 @@
     line-height: 1.25;
 }
     .vegetables-list {
-    gap: unset;
-    column-gap: 20px;
-    row-gap: 28px;
+    gap: 28px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
     .vegetables-list-item {
     padding: 32px 30px;
+    flex-basis: calc((100% - 20px) / 2);
 }
     .vegetables-subtitle {
     font-size: 32px;
@@ -96,5 +99,6 @@
 }
     .vegetables-list-item {
     padding: 32px;
+    flex-basis: calc((100% - 42px) / 3);
 }
 }
