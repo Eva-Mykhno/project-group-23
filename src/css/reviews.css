@@ -45,6 +45,10 @@
     display: none;
 }
 
+.reviews-item:first-child {
+    padding-bottom: 38px;
+}
+
 .reviews-picture {
     margin: 0 auto;
     width: 56px;
@@ -68,7 +72,7 @@
 }
 
 .reviews-card-text {
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
     text-align: center;
     color: rgba(4, 3, 6, 0.40);
     font-size: 14px;
@@ -114,6 +118,10 @@
 
     .reviews-item:nth-child(n+3) {
         display: none;
+    }
+
+    .reviews-item:first-child {
+        padding-bottom: 20px;
     }
 
     .reviews-card-name {
