@@ -1,24 +1,21 @@
 .order-section{
+    background-color: #7a3145;
+   
+  }
+  .order-text-container{
     min-width: 320px;
     max-width: 370px;
     padding: 80px 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #7a3145;
-  }
-  .order-text-container{
-    width: 335px;
   }
   .order-title{
-    font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.04;
-    letter-spacing: -0.01em;
+    letter-spacing: -0,015em;
     text-transform: uppercase;
     color: #fbfbfb;
-    text-align: left;
-    margin-bottom: 20px;
   }
   .title-accent{
     color: rgba(251, 251, 251, 0.3);
@@ -26,7 +23,7 @@
   .order-text{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.3;
+    line-height: 1.29;
     color: #fbfbfb;
     margin-top: 29px;
   }
@@ -35,13 +32,13 @@
     border-radius: 30px;
     padding: 40px 20px;
     max-width: 335px;
-    margin-top: 40px;
+    margin: 0 auto;
   }
   .order-form-text{
     font-weight: 600;
    font-size: 24px;
    line-height: 1.08;
-   letter-spacing: -0.01em;
+   letter-spacing: -0,015em;
    text-transform: uppercase;
    color: #141414;
   }
@@ -71,7 +68,7 @@
     letter-spacing: -0.02em;
     color: #141414;
     text-transform: capitalize;
-    text-align: left;
+    padding: 14px 220px 14px 16px;;
   }
   .email-input{
     border: 1px solid rgba(20, 20, 20, 0.2);
@@ -80,10 +77,10 @@
     max-width: 295px;
     height: 46px;
   }
-  .email-input:valid{
+  .email-input:not(:placeholder-shown):valid{
     border-color: #3CBC81;
   }
-  .email-input:invalid{
+  .email-input:not(:placeholder-shown):invalid{
     border-color: #E74A3B;
   }
   input:hover,
@@ -94,7 +91,6 @@
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 15px;
     padding-left: 16px;
-    padding-right: 59px;
     max-width: 295px;
     resize: none;
   }
@@ -107,14 +103,15 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    text-align: left;
     color: #141414;
+    padding-left: 16px;
+    padding-top: 14px;
   }
   .order-button{
     border-radius: 30px;
-    padding: 16px 129px;
     width: 295px;
     height: 50px;
+    margin: 0 auto;
     margin-top: 20px;
     background-color: #576F35;
     border: none;
@@ -122,9 +119,8 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 1.29;
-    letter-spacing: -0.01em;
+    letter-spacing: -0,015em;
     text-transform: uppercase;
-    cursor: pointer;
 }
 .order-media-container{
     background-color: #576F35;
@@ -132,28 +128,22 @@
     padding: 40px 20px;
     max-width: 335px;
     max-height: 465px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 img{
     display: block;
     width: 100%;
     height: auto;
     border-radius: 15px;
+    background-color: linear-gradient(rgba(20, 20, 20, 0.3););
 }
 .order-media-text{
     font-weight: 600;
     font-size: 14px;
     line-height: 1.29;
-    letter-spacing: -0.01em;
+    letter-spacing: -0,015em;
     color: rgba(251, 251, 251, 0.5);
     margin-top: 20px;
-}
-.social-media-link{
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.08;
-    letter-spacing: -0.01em;
-    color: #fbfbfb;
 }
 .social-media-list{
     display: flex;
@@ -167,28 +157,28 @@ img{
     font-weight: 600;
     font-size: 24px;
     line-height: 1.08;
-    letter-spacing: -0.01em;
+    letter-spacing: -0,015em;
 }
 @media screen and (min-width: 768px) {
     .order-section{
-        max-width: 768px;
-        padding: 100px 32px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .order-text-container{
-      width: 640px;
-    }
+        width: 768px;
+        }
     .order-title{
         font-size: 64px;
         line-height: 1;
+        width: 428px;
     }
     .order-text{
         font-size: 16px;
         line-height: 1.25;
-        max-width: 640px;
+        width: 640px;
+        margin-top: 25px;
     }
     .order-form-container{
         max-width: 628px;
@@ -206,6 +196,7 @@ img{
     input::placeholder{
         font-size: 16px;
         line-height: 1.25;
+        padding: 16px 345px 16px 16px;
     }
     .email-input{
         padding-left: 16px;
@@ -218,6 +209,7 @@ img{
     textarea::placeholder{
         font-size: 16px;
         line-height: 1.25;
+        padding-left: 16px;
     }
     .order-button{
         width: 100%;
@@ -227,7 +219,6 @@ img{
     }
     .order-media-container{
         margin-top: 25px;
-        padding: 50px;
         max-width: 628px;
         max-height: 490px;
         margin-left: 70px;
@@ -246,10 +237,6 @@ img{
     .social-media-list{
       gap: 12px;
     }
-    .social-media-link{
-      font-size: 32px;
-      line-height: 1;
-    }
     .social-media-item{
       font-size: 32px;
       line-height: 1;
@@ -261,7 +248,6 @@ img{
       padding: 100px;
     }
     .order-text-container{
-      margin-right: 429px;
       width: 751px;
       margin-left: 100px;
     }
@@ -280,9 +266,12 @@ img{
       padding: 50px;
       max-width: 529px;
       max-height: 534px;
-      margin-top: 0;
+      margin-top: 50px;
       margin-left: 0;
       margin-right: 0;
+    }
+    input::placeholder{
+      padding: 16px 346px 16px 16px;
     }
     img{
       width: 427px;
