@@ -16,24 +16,14 @@
   justify-content: space-between;
 }
 
-.header-logo-a {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
 .header-logo {
   display: flex;
 }
 
-.header-logo-favicon {
-  width: 16px;
+.header-logo-icon {
+  width: 168px;
   height: 16px;
-}
-
-.header-logo-text {
-  width: 148px;
-  height: 12px;
+  fill: #fbfbfb;
 }
 
 .btn-open-menu {
@@ -59,18 +49,9 @@
     top: 32px;
   }
 
-  .header-logo-a {
-    gap: 8px;
-  }
-
-  .header-logo-favicon {
-    width: 18px;
+  .header-logo-icon {
+    width: 194px;
     height: 18px;
-  }
-
-  .header-logo-text {
-    width: 168px;
-    height: 15px;
   }
 
   .icon-btn-open-menu {
