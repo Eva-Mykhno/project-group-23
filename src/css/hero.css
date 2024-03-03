@@ -63,17 +63,22 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .background-image {
-    background-image: url(../img/hero/hero-bg-tab-2x.jpg);
+    .background-image {
+      background-image: url(../img/hero/hero-bg-tab-2x.jpg);
+    }
   }
-}
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero {
+  .wrapper {
     display: flex;
+    justify-content: center;
+  }
+
+  .hero {
     padding-top: 0;
   }
+  
   .title-hero {
     margin-top: 238px;
     margin-bottom: 128px;
@@ -81,7 +86,7 @@
   }
 
   .hero-text {
-    width: 472px;
+    width: 470px;
   }
 
   .background-image {
@@ -91,8 +96,8 @@
   }
 
   @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .background-image {
-    background-image: url(../img/hero/hero-bg-desk-2x.jpg);
+    .background-image {
+      background-image: url(../img/hero/hero-bg-desk-2x.jpg);
+    }
   }
-}
 }
