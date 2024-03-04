@@ -12,7 +12,6 @@ ol {
     #7a3145 0% 44.76%,
     #576f35 44.76% 100%
   );
-  z-index: -3;
 }
 
 .steps-container {
@@ -40,7 +39,6 @@ ol {
   width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
-  z-index: -1;
 }
 
 .overlay {
