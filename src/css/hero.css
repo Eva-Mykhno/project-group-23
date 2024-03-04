@@ -8,7 +8,7 @@
 }
 
 .title-hero {
-  width: 335px;
+  max-width: 335px;
   font-weight: 600;
   font-size: 48px;
   line-height: 1;
@@ -19,7 +19,7 @@
 }
 
 .hero-text {
-  width: 335px;
+  max-width: 335px;
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
@@ -49,13 +49,13 @@
   }
 
   .title-hero {
-    width: 704px;
+    max-width: 704px;
     font-size: 76px;
     margin-bottom: 25px;
   }
 
   .hero-text {
-    width: 603px;
+    max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -92,11 +92,11 @@
   .title-hero {
     margin-top: 238px;
     margin-bottom: 128px;
-    width: 502px;
+    max-width: 502px;
   }
 
   .hero-text {
-    width: 470px;
+    max-width: 470px;
   }
 
   .background-image {
