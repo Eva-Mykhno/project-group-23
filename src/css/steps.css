@@ -169,6 +169,11 @@ ol {
     background-color: #7a3145;
   }
 
+  .steps-cooking-image {
+    height: 100%;
+    width: 100%;
+  }
+
   .overlay {
     top: 100px;
     left: 32px;
