@@ -49,13 +49,13 @@
   }
 
   .title-hero {
-    width: 704px;
+    max-width: 704px;
     font-size: 76px;
     margin-bottom: 25px;
   }
 
   .hero-text {
-    width: 603px;
+    max-width: 603px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -92,11 +92,11 @@
   .title-hero {
     margin-top: 238px;
     margin-bottom: 128px;
-    width: 502px;
+    max-width: 502px;
   }
 
   .hero-text {
-    width: 470px;
+    max-width: 470px;
   }
 
   .background-image {
