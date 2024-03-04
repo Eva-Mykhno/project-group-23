@@ -1,4 +1,5 @@
-<section class="order-section container">
+<section class="order">
+    <div class="order-section container">
     <div class="order-text-container">
         <h2 class="order-title">Fresh <span class="title-accent">Harvest</span> Box has got you covered</h2>
         <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
@@ -9,15 +10,17 @@
             <form class="order-form">
                 <input type="text" name="customer-name" placeholder="Full name" class="name-input" required/>
                 <input pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" type="email" name="customer-email" placeholder="Email" class="email-input" required/>
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p>
                 <textarea name="customer-comment" placeholder="Comment" class="comment-section"></textarea>
             </form>
             <button type="submit" class="order-button">Send</button>
         </div>
         <div class="order-media-container">
             <picture>
-                <source media="(max-width: 767px)" srcset="../img/order-section-img/woman-hands@1.jpg 1x, ../img/order-section-img/woman-hands@2.jpg 2x"/>
-                <source media="(min-width: 768px)" srcset="../img/order-section-img/woman-hands-tab@1.jpg 1x, ../img/order-section-img/woman-hands-tab@2.jpg 2x"/>
-                <source media="(min-width: 1280px)" srcset="../img/order-section-img/woman-hands-desk@1.jpg 1x, ../img/order-section-img/woman-hands-desk@2.jpg 2x"/>
+                <source media="(max-width: 767px)" srcset="./img/order-section-img/woman-hands@1.jpg 1x, ../img/order-section-img/woman-hands@2.jpg 2x"class="gradient">
+                <source media="(min-width: 768px)" srcset="./img/order-section-img/woman-hands-tab@1.jpg 1x, ../img/order-section-img/woman-hands-tab@2.jpg 2x"class="gradient"/>
+                <source media="(min-width: 1280px)" srcset="./img/order-section-img/woman-hands-desk@1.jpg 1x, ../img/order-section-img/woman-hands-desk@2.jpg 2x" class="gradient"/>
                 <img src="../img/order-section-img/woman-hands@1.jpg"
                      alt="woman-hands"
                      width="295"
@@ -40,5 +43,6 @@
                 </ul>
             </div>
         </div>
+    </div>
     </div>
 </section>

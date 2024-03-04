@@ -1,15 +1,15 @@
-.order-section{
+.order{
     background-color: #7a3145;
-   
   }
   .order-text-container{
     min-width: 320px;
-    max-width: 370px;
-    padding: 80px 20px;
+    max-width: 375px;
+    padding: 80px 0;
     margin-left: auto;
     margin-right: auto;
   }
   .order-title{
+    width: 335px;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.04;
@@ -60,6 +60,7 @@
     padding-left: 14px;
     max-width: 295px;
     height: 46px;
+    outline: none;
   }
   input::placeholder{
     font-weight: 500;
@@ -68,18 +69,34 @@
     letter-spacing: -0.02em;
     color: #141414;
     text-transform: capitalize;
-    padding: 14px 220px 14px 16px;;
+    padding-top: 14px;
+    padding-left: 16px;
   }
   .email-input{
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 30px;
-    padding: 14px 247px 14px 16px;
+    padding-top: 14px;
+    padding-left: 16px;
     max-width: 295px;
     height: 46px;
+    outline: none;
   }
   .email-input:not(:placeholder-shown):valid{
     border-color: #3CBC81;
   }
+  .text-valid{
+    color: #3CBC81;
+  }
+  .text-invalid{
+    color: #E74A3B;
+  }
+  .text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
   .email-input:not(:placeholder-shown):invalid{
     border-color: #E74A3B;
   }
@@ -93,6 +110,7 @@
     padding-left: 16px;
     max-width: 295px;
     resize: none;
+    height: 91px;
   }
   .comment-section:hover,
   .comment-section:focus{
@@ -109,7 +127,8 @@
   }
   .order-button{
     border-radius: 30px;
-    width: 295px;
+    min-width: 240px;
+    max-width: 295px;
     height: 50px;
     margin: 0 auto;
     margin-top: 20px;
@@ -136,6 +155,9 @@ img{
     height: auto;
     border-radius: 15px;
     background-color: linear-gradient(rgba(20, 20, 20, 0.3););
+}
+.gradient{
+  color: #141414;
 }
 .order-media-text{
     font-weight: 600;
@@ -167,24 +189,26 @@ img{
         align-items: center;
     }
     .order-text-container{
-        width: 768px;
+      min-width: 640px;
+      max-width: 640px;
         }
     .order-title{
         font-size: 64px;
         line-height: 1;
-        width: 428px;
+        min-width: 640px;
     }
     .order-text{
         font-size: 16px;
         line-height: 1.25;
-        width: 640px;
+        width: 638px; 
         margin-top: 25px;
     }
     .order-form-container{
         max-width: 628px;
         padding: 50px 100px;
-        margin-left: 70px;
-        margin-right: 70px;
+    }
+    .order-form-text{
+      width: 438px;
     }
     .order-form{
         margin-top: 50px;
@@ -196,7 +220,6 @@ img{
     input::placeholder{
         font-size: 16px;
         line-height: 1.25;
-        padding: 16px 345px 16px 16px;
     }
     .email-input{
         padding-left: 16px;
@@ -212,17 +235,14 @@ img{
         padding-left: 16px;
     }
     .order-button{
-        width: 100%;
+        min-width: 428px;
         font-size: 18px;
         line-height: 1.11;
-        padding: 16px 191px;
     }
     .order-media-container{
         margin-top: 25px;
         max-width: 628px;
         max-height: 490px;
-        margin-left: 70px;
-        margin-right: 70px;
     }
     img{
       width: 528px;
@@ -249,7 +269,6 @@ img{
     }
     .order-text-container{
       width: 751px;
-      margin-left: 100px;
     }
     .order-text{
       max-width: 742px;
