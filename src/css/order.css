@@ -161,10 +161,10 @@ img{
     width: 100%;
     height: auto;
     border-radius: 15px;
-    background-color: linear-gradient(rgba(20, 20, 20, 0.3));
+    background-color: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%);
 }
 .gradient{
-  background-color: linear-gradient(rgba(20, 20, 20, 0.3));
+  background-color: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%);
 }
 .order-media-text{
     font-weight: 600;
@@ -251,6 +251,7 @@ img{
         line-height: 1.11;
     }
     .order-media-container{
+        padding: 50px;
         margin-top: 25px;
         width: 628px;
         height: 490px;
