@@ -15,6 +15,7 @@ svg {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  z-index: 999;
 }
 
 .menu-is-open {
@@ -31,7 +32,6 @@ svg {
   justify-content: space-between;
   padding: 20px 0px 40px 110px;
   margin: 0 auto;
-  z-index: 999;
 }
 
 .mob-top {
