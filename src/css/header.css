@@ -17,9 +17,6 @@
   align-items: center;
 }
 
-.header-logo-a {
-  display: block;
-}
 .header-logo {
   display: flex;
 }
