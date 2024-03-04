@@ -62,7 +62,7 @@
   .name-input{
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 30px;
-    padding-left: 14px;
+    padding-left: 16px;
     max-width: 295px;
     height: 46px;
     outline: none;
@@ -75,13 +75,11 @@
     letter-spacing: -0.02em;
     color: #141414;
     text-transform: capitalize;
-    padding-top: 14px;
     padding-left: 16px;
   }
   .email-input{
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 30px;
-    padding-top: 14px;
     padding-left: 16px;
     max-width: 295px;
     height: 46px;
