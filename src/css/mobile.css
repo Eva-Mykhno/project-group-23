@@ -88,6 +88,11 @@ svg {
   color: #7a3145;
 }
 
+.mob-steps {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+
 .mob-button {
   display: inline-flex;
   padding: 16px 41px;
@@ -100,9 +105,7 @@ svg {
 
   color: #7a3145;
 
-  font-family: 'Inter Tight';
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.29;
   letter-spacing: -0.015em;
