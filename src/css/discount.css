@@ -32,14 +32,12 @@
     margin-top: 80px;
     margin-right: 10px;
     min-width: 320px;
-    max-width: 375px;
+    max-width: 355px;
 }
 
 
 
 .discount-paragraph {
-    /*delete font*/
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.04;
