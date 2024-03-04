@@ -14,8 +14,12 @@
 .header-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+.header-logo-a {
+  display: block;
+}
 .header-logo {
   display: flex;
 }
