@@ -5,11 +5,12 @@
     padding: 80px 0px;
     min-width: 320px;
     max-width: 375px;
+    margin: 0 auto;
   }
-  .order-text-container{
+  /* .order-text-container{
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
   .order-title{
     max-width: 335px;
     font-weight: 600;
