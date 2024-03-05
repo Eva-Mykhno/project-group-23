@@ -69,7 +69,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  background-color: #576f35;
 }
 
 .steps-header {
