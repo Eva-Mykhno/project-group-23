@@ -4,6 +4,8 @@ color: #fbfbfb;
 padding-top: 40px;
 padding-bottom: 40px;}
 
+.f-container{min-width:320px;
+width:100%;}
 .f-nav{
 display: flex;
 flex-direction: column;
