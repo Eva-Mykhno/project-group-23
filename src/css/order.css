@@ -4,13 +4,13 @@
   .order-section{
     padding: 80px 0px;
     min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .order-text-container{
     max-width: 375px;
     margin: 0 auto;
   }
-  /* .order-text-container{
-    margin-left: auto;
-    margin-right: auto;
-  } */
   .order-title{
     max-width: 335px;
     font-weight: 600;
@@ -285,8 +285,6 @@ img{
   @media  screen and (min-width: 1280px) {
     .order-text-container{
       width: 751px;
-      margin-left: 0;
-      margin-right: 0;
     }
     .order-section{
       padding: 100px 0;
