@@ -25,6 +25,7 @@ svg {
 }
 
 .mob-container {
+  min-width: 320px;
   width: 375px;
   background-color: #7a3145;
   display: flex;
