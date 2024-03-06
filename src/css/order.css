@@ -167,7 +167,7 @@
     margin-top: 20px;
     position: relative;
 }
-.overlay{
+.order-overlay{
   position: absolute;
   top: 40px;
   left: 20px;
@@ -274,7 +274,7 @@ img{
         width: 628px;
         height: 490px;
     }
-    .overlay{
+    .order-overlay{
       top: 50px;
       left: 50px;
       max-width: 528px;
@@ -334,7 +334,7 @@ img{
       margin: 0;
       padding: 50px;
     }
-    .overlay{
+    .order-overlay{
       max-width: 427px;
     }
   }
